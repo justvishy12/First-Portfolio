@@ -15,9 +15,13 @@ body{
     font-family: "Lilita One", sans-serif;
     letter-spacing: 1px;
 }
-
-.header
+nav
 {
+    display:flex;
+    flex-direction:row;
+    gap: 50px;
+}
+.header{
     display:flex;
     flex-direction:row;
     align-items:center;
@@ -30,8 +34,7 @@ h1{
     color:rgb(29, 29, 172);
     text-align:center;
 }
-h2
-{
+h2{
     font-size: 30px;
 }
 
@@ -54,8 +57,7 @@ img{
     width: clamp(200px, 40%, 500px);
 }
 
-span
-{
+span{
     padding-top:10px;
 }
 
@@ -92,6 +94,7 @@ span
     letter-spacing: 2px;
     text-align:center;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .projects{
@@ -116,6 +119,19 @@ span
     background-color: rgb(157, 206, 214);
 }
 
+.links{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.links:hover{
+    background-color: rgb(157, 206, 214);
+}
+
 .coming-soon{
     display:flex;
     flex-direction:column;
@@ -128,6 +144,9 @@ span
 }
 
 .about-me{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(59, 69, 122);
     border: 10px solid rgb(193, 201, 228);
     border-radius: 20px;
@@ -165,6 +184,24 @@ span
     top:20%;
 }
 
+.fun-links{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59, 69, 122);
+    border: 10px solid rgb(193, 201, 228);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(124, 175, 233);
+}
+
+.all-links{
+    display: flex;
+    flex-direction:row;
+}
 @media (max-width: 425px) {
         .header {
             flex-direction: column;
