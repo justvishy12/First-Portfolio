@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    padding-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:rgb(151, 185, 207);
+    position:relative;
+    font-family: "Lilita One", sans-serif;
+    letter-spacing: 1px;
+}
+
+.header
+{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:30px;
+    justify-content:center;
+    margin-bottom:30px;
+}
+h1{
+    font-size: 30px;
+    color:rgb(29, 29, 172);
+    text-align:center;
+}
+
+a{
+    color:rgb(59, 130, 246);
+}
+a:hover {
+    color: rgb(29, 78, 216);
+}
+
+p{
+    font-size:20px; 
+    color:rgb(51, 65, 85); 
+
+}
+
+
+img{
+    width: clamp(200px, 40%, 500px);
+}
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.head-title{
+    font-size: 30px;
+    color:rgb(30, 64, 175);
+    text-align:center;
+    letter-spacing: 2px;
+}
+
+.bottom-link{
+   margin-top:30px; 
+}
+
+.projects{
+    margin-top:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.games{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.game-link{
+   margin-top:5px; 
+}
