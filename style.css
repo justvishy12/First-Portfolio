@@ -30,6 +30,10 @@ h1{
     color:rgb(29, 29, 172);
     text-align:center;
 }
+h2
+{
+    font-size: 30px;
+}
 
 a{
     color:rgb(59, 130, 246);
@@ -123,9 +127,48 @@ span
 
 }
 
+.about-me{
+    background-color: rgb(59, 69, 122);
+    border: 10px solid rgb(193, 201, 228);
+    border-radius: 20px;
+    width: 1000px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(124, 175, 233)
+}
+
+.text-box
+{
+    width:350px;
+    height:200px;
+    position:relative;
+}
+.photo-text{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    gap: 70px;
+    margin-top: 25px;
+}
+
+.portrait{
+    width:300px;
+    border: 10px solid rgb(133, 141, 248);
+    border-radius: 20px;
+}
+.my-text{
+    color: rgb(59, 130, 246);
+    font-size: 25px;
+    position:absolute;
+    left:-20%;
+    top:20%;
+}
+
 @media (max-width: 425px) {
         .header {
             flex-direction: column;
             gap: 10px;
         }
 }
+
