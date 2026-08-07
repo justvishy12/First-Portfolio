@@ -5,6 +5,8 @@
 
 body{
     padding-top:30px;
+    padding-left:30px;
+    padding-right:30px; 
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -39,12 +41,18 @@ a:hover {
 p{
     font-size:20px; 
     color:rgb(51, 65, 85); 
+    text-align:center;
 
 }
 
 
 img{
     width: clamp(200px, 40%, 500px);
+}
+
+span
+{
+    padding-top:10px;
 }
 
 .lilita-one-regular {
@@ -62,10 +70,29 @@ img{
 
 .bottom-link{
    margin-top:30px; 
+   margin-bottom:5px;
+}
+
+.all-games{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(59, 69, 122);
+    border-color: rgb(193, 201, 228);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 20px;
+    padding-left:20px;
+    padding-right:20px;
+    color: rgb(124, 175, 233);
+    letter-spacing: 2px;
+    text-align:center;
+    padding-top: 10px;
 }
 
 .projects{
     margin-top:20px;
+    gap: 20px;
     display:flex;
     flex-direction:row;
     justify-content:center;
@@ -76,8 +103,29 @@ img{
     display:flex;
     flex-direction:column;
     align-items:center;
+    justify-content:center;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+.games:hover{
+    background-color: rgb(157, 206, 214);
 }
 
-.game-link{
-   margin-top:5px; 
+.coming-soon{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+
+}
+
+@media (max-width: 425px) {
+        .header {
+            flex-direction: column;
+            gap: 10px;
+        }
 }
