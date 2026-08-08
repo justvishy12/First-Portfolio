@@ -70,6 +70,19 @@ span{
     padding-top:10px;
 }
 
+footer{
+    width: 8000px;
+    height:60px;
+    background-color: rgb(73, 73, 129);
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    flex-direction:row;
+    gap: 50px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
 .lilita-one-regular {
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
@@ -86,6 +99,7 @@ span{
 .bottom-link{
    margin-top:30px; 
    margin-bottom:5px;
+   font-size: 20px;
 }
 
 .all-games{
@@ -123,6 +137,7 @@ span{
     width: 300px;
     height: 250px;
     border-radius: 20px;
+    font-size: 20px;
 }
 .games:hover{
     background-color: rgb(157, 206, 214);
@@ -136,6 +151,7 @@ span{
     width: 300px;
     height: 250px;
     border-radius: 20px;
+    font-size: 20px;
 }
 .links:hover{
     background-color: rgb(157, 206, 214);
@@ -159,7 +175,7 @@ span{
     background-color: rgb(59, 69, 122);
     border: 10px solid rgb(193, 201, 228);
     border-radius: 20px;
-    width: 1000px;
+    width: 940px;
     padding: 20px;
     text-align: center;
     color: rgb(124, 175, 233)
@@ -190,12 +206,13 @@ span{
     font-size: 30px;
     position:absolute;
     left:-20%;
-    top:20%;
+    top:5%;
 }
 
 .fun-links{
     padding: 20px;
     margin-top: 20px;
+    width: 940px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,6 +228,7 @@ span{
     display: flex;
     flex-direction:row;
 }
+
 @media (max-width: 425px) {
         .header {
             flex-direction: column;
